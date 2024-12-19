@@ -47,5 +47,8 @@ hr { /*this is  for that little orange line above the button*/
 
 .btn-xl {
   padding: 1rem 2rem; /*this is a custom class, not from bootstrap, and the padding creates more space beteen the text and the borders*/
+}
 
+.otherbutton {
+  color: white;
 }
