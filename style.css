@@ -1,0 +1,51 @@
+body, /*this is saying that all these properties and values apply to the body and html */
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+    background: url(header.jpg) no-repeat center center fixed; /*this is saying don't repeat the image, keep it center and fixed*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*This is going to make the text more readable*/
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+
+hr { /*this is  for that little orange line above the button*/
+    margin: 20px auto;
+    color: #F05F44;
+    border: 1px solid #F05F44;
+    max-width: 65px; /*this is setting what the maximum width of this selector can be */
+    opacity: 1;  
+}
+
+.buffer { /*this creates some space between the h1 section and the line/button section */
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700; /*makes the font more bold*/
+  border-radius: 300px; /*makes the corners of the button more circular*/
+  text-transform: uppercase; /*makes text uppercase, same idea as using the bootstrap class, except to do it here you are using CSS*/
+}
+
+.btn-primary {
+  background-color: #f05f44; /*makes the button inside the border this color*/
+  border-color: #f05f44; /*makes the border of the button this color*/
+}
+
+.btn-primary:hover { /*this is only for when you hover over the button*/
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px; /*makes the border width 4px bigger when you hover over it*/
+}
+
+.btn-xl {
+  padding: 1rem 2rem; /*this is a custom class, not from bootstrap, and the padding creates more space beteen the text and the borders*/
+
+}
